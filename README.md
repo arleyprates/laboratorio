@@ -1,2 +1,2 @@
-laboratorio
+Laboratório de Programação I
 ===========
