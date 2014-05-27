@@ -1,0 +1,1 @@
+// if (num = 10) Uma condicional para a variavel num receber 10
