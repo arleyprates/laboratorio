@@ -13,8 +13,6 @@ int main () {
 	int quantidade, menu;
 	char matricula[10], ano_nascimento[10];
 	char sobrenome[10];
-	char arq1[2000];
-	char linha[300];
 	char txt;
 	FILE *arquivo;
 	menu = 0;
