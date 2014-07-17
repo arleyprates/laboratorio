@@ -3,7 +3,7 @@
 #include <string.h>
 
 int main () {
-	char NomeArquivo[200];
+	char nomeArq[200];
 	char palavra[20];
 	FILE *arquivo1;
 
@@ -12,8 +12,8 @@ int main () {
 	char prox;
 
 	printf ("Informe nome/endereco do arquivo1: ");
-	scanf ("%s", &NomeArquivo);
-	arquivo1 = fopen (NomeArquivo,"r");
+	scanf ("%s", &nomeArq);
+	arquivo1 = fopen (nomeArq,"r");
 
 	if (arquivo1 == NULL) {
 		printf ("Nao foi possivel criar/abrir o arquivo.\n");
