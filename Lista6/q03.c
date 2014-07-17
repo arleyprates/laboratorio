@@ -6,7 +6,7 @@ int main (void ) {
       char linha[100];
       FILE *arquivo;
       char nome[20];
-      printf( "Digite nome do arquivo desejado arquivora saber quantoas linhas tem. Ex: a.txt\n");
+      printf( "Digite nome do arquivo desejado pra saber quantoas linhas tem. Ex: a.txt\n");
       scanf ("%s", &nome);
       if ((arquivo = fopen (nome, "r")) == NULL) {
             printf("\nErro ao abrir o arquivo.\n");
