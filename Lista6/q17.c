@@ -8,9 +8,8 @@ void main()
   char *result;
   int i;
   clrscr();
-  // Abre um arquivo TEXTO para LEITURA
   arq = fopen("ArqTeste.txt", "rt");
-  if (arq == NULL)  // Se houve erro na abertura
+  if (arq == NULL) 
   {
      printf("Problemas na abertura do arquivo\n");
      return;
@@ -18,9 +17,8 @@ void main()
   i = 1;
   while (!feof(arq))
   {
-	// Lê uma linha (inclusive com o '\n')
-      result = fgets(Linha, 100, arq);  // o 'fgets' lê até 99 caracteres ou até o '\n'
-      if (result)  // Se foi possível ler
+      result = fgets(Linha, 100, arq);
+      if (result) 
 	  printf("Linha %d : %s",i,Linha);
       i++;
   }
